@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>if else - Operadores condicionais</title>
+    <script>
+
+        //&&(E) ||(OU) and !(Negação)
+
+        //true && true && false = true
+        /*
+        if (2 == 2 && 3 >= 1 && 'a' == 'b') {
+            document.write('Verdadeiro')
+        } else {
+            document.write('Falso')
+        }
+        */
+
+        var nota = prompt('Digite a nota do Aluno')
+        var faltas = prompt('Digite a quantidade de faltas')
+
+        var media = 7
+        var faltas_maximas = 15
+
+        /*
+        if (nota >= media && faltas <= faltas_maximas) {
+            document.write('APROVADO')
+        }
+
+        else {
+            document.write('REPROVADO')
+        }
+        */
+
+        var resultado = (nota >= media && faltas <= faltas_maximas) ? 'Aprovado' : 'Reprovado'
+        document.write(resultado)
+    </script>
+</head>
+
+<body>
+
+</body>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Laços prática 2</title>
+
+    <script>
+
+        //var listaFuncionarios = ['Loren', 'Debora', 'Aline', 'Iohana', 'Nalva']
+
+        var listaFuncionarios = Array()
+
+        listaFuncionarios['x'] = 'Loren'
+        listaFuncionarios[false] = 'Debora'
+        listaFuncionarios[3] = 'Aline'
+        listaFuncionarios[27] = 'Iohana'
+        listaFuncionarios[-12] = 'Nalva'
+
+        var f = function (valor, indice) {
+            console.log(valor, indice)
+        }
+        listaFuncionarios.forEach(f)
+
+        /*
+        console.log(listaFuncionarios)
+        document.write(listaFuncionarios[0])
+
+        listaFuncionarios.forEach(function (valor, indice, array) {
+            //lógica
+            console.log('indice: ' + indice + '| valor: ' + valor)
+
+            if (valor == 'Loren') {
+                array[indice] = 'Gostosa'
+            }
+        })
+
+        console.log(listaFuncionarios)
+        document.write('<br />')
+        document.write(listaFuncionarios[0])
+        */
+    </script>
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>
